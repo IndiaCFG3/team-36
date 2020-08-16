@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+      <title>User </title> 
+    </head>
+    <header>
+      
+        <h1>Yuva Parivarthan</h1>
+    </header>
+        <body>
+    
+        <div class="container">
+          <h1>Add user
+            <i class="fas fa-user" ></i></h1>
+            <b>--------------------------------------</b><br><br>
+            <form class="Details">
+            <label for="firstname"><b>Firstname : </b></label>
+            <input type="text" placeholder="Enter firstname" name="firstname" required>
+             <br><br>
+            <label for="lastname"><b>Lastname : </b></label>
+            <input type="text" placeholder="Enter lastname" name="lastname" required>
+
+            <br><br>
+           
+            <label for="department">Department : </label>
+            <div class="dropdown">
+            <select name="department" id="department" required>
+              
+                 <option value="1.">HR</option>
+                 <option value="2.">AUDIT</option>
+                  <option value="3.">IT</option>
+                  <option value="4.">ADMIN</option>
+                  <option value="5.">HOD</option>
+                  <option value="6.">OPERATIONS</option>
+                  <option value="7.">ENC</option>
+               
+                  </select>
+                </div><br>
+            <label for="Gender"><b>Gender : </b></label>
+            <input type="radio" name="gender" value="Male">
+            <label class="form check-label">Male</label>
+            <input type="radio" name="gender" value="female">
+            <label class="form check-label">Female</label>
+            <br>
+            <label for="Email"><b>Email : </b></label>
+            <input type="email" placeholder="Enter Email" id="Email" required>
+            <br><br>
+            <label for="Mobile"><b>Mobile Number : </b></label>
+            <input type="text" placeholder="Enter MobileNumber" id="Mobile" required>
+            <br>
+            
+            
+              
+
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="Submit" type="submit">Submit</button>
+            <br><br>
+            <!-- <label>
+              <input type="checkbox" name="remember"> Remember me
+            </label> -->
+          </form>
+          </div>
+        
+          </body>
+          
+   
+</html>

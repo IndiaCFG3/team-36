@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url('3.jpg');
+    position: relative;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+   
+}
+header{
+    background-color: #F63232;
+    padding:20px;
+    text-align: center;
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0;
+    left:0;
+}
+header h1{
+    color:white;
+    
+    padding:6px 12px;
+    display:inline;
+    border-radius: 30px;
+}
+
+.container{
+    width:350px;
+    height:440px;
+    position:fixed;
+    background: black;
+    top:50%;
+    left:50%;
+    
+    margin-top:-180px;
+    margin-left:-150px;
+    padding:0 auto;
+    color:teal;
+   
+    
+}
+.container h1{
+    color:orangered;
+}
+.dropdown{
+    color:blue;
+}
+.Submit{
+    color:white;
+    background-color:blue;
+    align-content: center;
+}
+.Details.input{
+    color:black;
+}
+
+form input:valid{
+    border: 3px solid green;
+}
+
