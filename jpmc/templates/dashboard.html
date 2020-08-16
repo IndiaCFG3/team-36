@@ -1,0 +1,61 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CFG</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{% static 'css/dash.css' %}">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-globe"></span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Log out</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="sidebar">
+    <a href="{% url 'notifications' %}" class="btn btn-danger text-white">Notifications</a>
+     <div class="dropdown-content">
+      <li><p>this is attendance</p></li>
+      <li><p>this is report</p></li>
+      <li><p>this is stats</p></li>
+    </div>
+    <a href="#">Reports</a>
+    <a href="#">Departments</a>
+    <a href="#" >User Profile</a>
+    <ul>
+        <li style="list-style-type: none;"><a href="#">Create new user</a></li>
+        <li style="list-style-type: none;"><a href="#">Delete a user</a></li>
+        <li style="list-style-type: none;"><a href="#">Edit User</a></li>
+    </ul>
+    <a href="#">Payments</a>
+    <ul>
+        <li style="list-style-type: none;"><a href="employee.html">Employee</a></li>
+        <li style="list-style-type: none;"><a href="#">Pay roll</a></li>
+    </ul>
+    
+    <a href="#">Delete User</a>
+  </div>
+  <div class="content">
+      <h1>Here we are going to add content</h1>
+  </div>
+</body>
+</html>
